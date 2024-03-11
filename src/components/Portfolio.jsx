@@ -11,7 +11,7 @@ export default function Portfolio() {
             </div>
             <div className='portfolio-item'>
                 <h2>Adventure</h2>
-                <p>Wanna have lunch? Well, your options are limits but have a go at this small little lunch adventure and see what you end on. <br /> Programmed with HTML, CSS, JavaScript</p>
+                <p>Wanna have lunch? Well, your options are limited but have a go at this small little lunch adventure and see what you end on. <br /> Programmed with HTML, CSS, JavaScript</p>
                 <img className='project-img' src="src/assets/Adventure.png" alt="lunch adventure"/>
             </div>
             <div className='portfolio-item'>
