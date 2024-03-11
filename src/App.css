@@ -1,0 +1,73 @@
+body { 
+  margin: 0; 
+  display: flex; 
+  /* justify-content: center; */
+  flex-direction: column;
+}
+
+.navbar, .navbar > ul { 
+  display:flex; 
+  flex-direction:row; 
+  justify-content: center; 
+  align-items: center; 
+  width: 78em; 
+}
+
+.navbar > ul { 
+  justify-content:space-between; 
+  list-style: none; 
+  font-size: 20px; 
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.project-img {
+  width: 378px;
+}
+
+.portfolio-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color:lightcoral;
+  padding: 10px;
+  color: #213547;
+}
+
+.portfolio-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  text-align: center;
+}
+
+.contact-logos{
+  width: 90px;
+  border-radius: 90px;
+  padding: 25px;
+}
+
+.about-container{
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color:lightcoral;
+  padding: 10px;
+  color: #213547;
+}
+
+.about-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+}
+.about-item h3{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
