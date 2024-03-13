@@ -17,7 +17,7 @@ a {
   font-weight: 800;
   color: lightcoral;
   text-decoration: inherit;
-  /* align-items: center; */
+
 }
 a:hover {
   color:cornflowerblue;
@@ -68,3 +68,7 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
