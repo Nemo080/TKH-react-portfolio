@@ -48,6 +48,18 @@ body {
   text-align: center;
 }
 
+.portfolio-item a:hover {
+  color: lightcoral;
+}
+
+.portfolio-item a{
+  color:cornflowerblue;
+}
+
+.project-atag {
+ text-align: right;
+}
+
 .contact-logos{
   width: 90px;
   border-radius: 90px;
