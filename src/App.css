@@ -5,24 +5,30 @@ body {
 }
 
 .navbar, .navbar > ul { 
-  display:flex; 
-  flex-direction:row; 
-  justify-content: center; 
-  align-items: center; 
-  width: 78em; 
+  display:flex !important;
+  flex-direction:row !important;
+  justify-content: right !important;
+  align-items:center;
+  width: 70em;
 }
 
 .navbar > ul { 
-  justify-content:space-between; 
-  list-style: none; 
-  font-size: 20px; 
+  justify-content:space-between !important; 
+  list-style: none !important;
+  font-size: 20px !important;
+}
+
+.nav-img {
+  width: 75px;
+  align-items: left;
+  justify-content: left;
 }
 
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  max-width: 1280px !important;
+  margin: 0 auto !important;
+  padding: 2rem !important;
+  text-align: center !important;
 }
 
 .project-img {
@@ -70,3 +76,4 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
