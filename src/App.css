@@ -1,88 +1,118 @@
 body { 
-  margin: 0; 
-  display: flex; 
-  flex-direction: column;
+  margin: 0 !important; 
+  /* display:flex !important; */
+  flex-direction: column !important;
+  width: 100vw;
 }
 
-.navbar, .navbar > ul { 
-  display:flex; 
-  flex-direction:row; 
-  justify-content: center; 
-  align-items: center; 
-  width: 78em; 
+.navbar {
+  display: flex !important;
+  justify-content: space-between !important;
+  /* border: solid white 1px !important; */
+  padding:0% !important;
 }
+
 
 .navbar > ul { 
-  justify-content:space-between; 
-  list-style: none; 
-  font-size: 20px; 
+  display: flex !important;
+  gap: 3rem !important;
+  list-style: none !important;
+  font-size: 20px !important;
 }
 
 .nav-img{
-  width: 80px;
+  width: 100px !important;
+  justify-items: center !important;
+  align-items: center !important;
 }
 
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  margin: 0 !important;
+  padding: 2rem !important;
+  text-align: center !important;
+}
+
+.home{
+  grid-template-columns: auto auto !important;
+  display: grid !important;
+  align-items:center !important;
+  justify-items: center !important;
+  font-size: 20px;
+}
+
+.home-me{
+  width: 650px;
+}
+
+.my-button{
+  background-color: #f08080 !important;
+  align-items: left;
+}
+
+.my-button:hover{
+  background-color: cornflowerblue !important;
 }
 
 .project-img {
-  width: 378px;
+  width: 378px !important;
 }
 
 .portfolio-container{
-  display: grid;
-  grid-template-columns: auto auto auto;
-  background-color:lightcoral;
-  padding: 10px;
-  color: #213547;
+  display: grid !important;
+  grid-template-columns: auto auto auto !important;
+  background-color:lightcoral !important;
+  padding: 10px !important;
+  color: #213547 !important;
+
 }
 
 .portfolio-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  border: 1px solid rgba(0, 0, 0, 0.8) !important;
+  padding: 20px !important;
+  text-align: center !important;
+  align-items: center !important;
 }
 
 .portfolio-item a:hover {
-  color: lightcoral;
+  color: lightcoral !important;
 }
 
 .portfolio-item a{
-  color:cornflowerblue;
+  color:cornflowerblue !important;
 }
 
-.project-atag {
- text-align: right;
+/* .project-button{
+  background-color: cornflowerblue !important;
 }
+
+.project-button:hover{
+  background-color: lightcoral !important;
+} */
 
 .contact-logos{
-  width: 90px;
-  border-radius: 90px;
-  padding: 25px;
+  width: 90px !important;
+  border-radius: 90px !important;
+  padding: 25px !important;
 }
 
 .about-container{
-  display: grid;
-  grid-template-columns: auto auto;
-  background-color:lightcoral;
-  padding: 10px;
-  color: #213547;
+  display: grid !important;
+  grid-template-columns: auto auto !important;
+  background-color:lightcoral !important;
+  padding: 10px !important;
+  color: #213547 !important;
 }
 
 .about-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  padding-left: 100px;
-  padding-right: 100px;
-  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  border: 1px solid rgba(0, 0, 0, 0.8) !important;
+  padding: 20px !important;
+  padding-left: 100px !important;
+  padding-right: 100px !important;
+  text-align: center !important;
 }
 .about-item h3{
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
 }
