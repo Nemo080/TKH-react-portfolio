@@ -13,10 +13,10 @@ const Contact = (props) => {
 
           <div className='inline-flex'>
             <a href="https://www.linkedin.com/in/nishat-farhana/">
-              <img className="contact-logos animate-pulse" src="/pink-linkedin.jpeg" alt= "linkedin logo"/>
+              <img className="contact-logos" src="/pink-linkedin.jpeg" alt= "linkedin logo"/>
             </a>
             <a href="https://github.com/Nemo080">
-              <img className='contact-logos animate-pulse' src="/github.png" alt= "github logo"/>
+              <img className='contact-logos' src="/github.png" alt= "github logo"/>
             </a>
           </div>
       </div>
