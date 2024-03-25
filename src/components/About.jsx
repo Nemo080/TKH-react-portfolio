@@ -5,10 +5,10 @@ const About = () => {
     return (
         <div className='about-container mx-20'>
           <div className='about-item'>
-            <h3 className='text-lg font-bold my-28'>Background</h3>
+            <h3 className='text-lg font-bold my-36'>Background</h3>
           </div>
           <div className='about-item'>
-            <p className='my-4'>Hi! I am Nishat. I am currently a fellow at The Knowledge House. I have been in the technical world since 2021. I have always liked tinkering and making things with my hands so in a way coding or programming to me felt as if I was building something from scratch and putting together for someone to use with my hands.</p>
+            <p className='my-4'>Hi! I am Nishat.  I'm currently a fellow at The Knowledge House, immersed in the dynamic world of technology. My journey in this field began in 2021, fueled by a longstanding passion for tinkering and crafting. For me, coding and programming are like constructing something tangible from scratch, a process that resonates deeply with my love for hands-on creation. I find joy in building solutions from the ground up, each line of code representing a piece carefully assembled to create something meaningful and functional for others to utilize.</p>
             <img className="w-40 inline-flex" src="/me.png" />
           </div>
           <div className='about-item'>
