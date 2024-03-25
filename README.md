@@ -48,7 +48,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](src/assets/portfolio-img.png)
+[![Product Name Screen Shot][product-screenshot]](/portfolio-img.png)
 
  **Check out my portfolio and the projects within!** This portfolio is made with React as an SPA.
 
