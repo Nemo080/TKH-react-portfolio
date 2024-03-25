@@ -56,7 +56,7 @@ const About = () => {
             <p className='my-4'>N/A</p>
           </div>
           <div className='about-item'>
-            <h3 className='text-lg font-bold'>Eduation and Certifications</h3>
+            <h3 className='text-lg font-bold'>Education and Certifications</h3>
           </div>
           <div className='about-item'>
             <p className='my-4'>BBA in Computer Information Systems</p>
