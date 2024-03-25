@@ -7,7 +7,7 @@ const Home = () => {
   return (
    <>
       <h1 className="text-6xl font-bold my-4">Nishat's Portfolio</h1>
-      <div className='home'>
+      <div className='home relative'>
           <img className="home-me my-4" src="/me.png" alt="drawing of me"/>
           <div>
               <p className='my-1 mx-8'>Hi there! I'm Nishat. A TKH fellow and this is my porfolio made with React. It is a SPA. :)</p>
