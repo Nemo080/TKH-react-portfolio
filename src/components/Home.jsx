@@ -13,11 +13,11 @@ const Home = () => {
               <p className='my-1 mx-8'>Hi there! I'm Nishat. A TKH fellow and this is my porfolio made with React. It is a SPA. :)</p>
               <MyButton to="portfolio"/>
               <h3 className="text-3xl font-bold my-4 mt-20">Skills</h3>
-              <div className="inline-flex">
-                <img className='mx-4 animate-pulse' src="/whitehtml.png"/>
-                <img className='mx-4 animate-pulse' src="/whitecss.png"/>
-                <img className='mx-4 animate-pulse' src="/whiteJS.png" />
-                <img className='mx-4 animate-pulse' src="/whitereact.png" />
+              <div className="inline-flex my-8">
+                <img className='mx-6 animate-pulse' src="/whitehtml.png"/>
+                <img className='mx-6 animate-pulse' src="/whitecss.png"/>
+                <img className='mx-6 animate-pulse' src="/whiteJS.png" />
+                <img className='mx-6 animate-pulse' src="/whitereact.png" />
               </div>
           </div>
       </div>

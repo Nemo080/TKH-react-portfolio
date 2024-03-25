@@ -82,16 +82,8 @@ body {
   color:cornflowerblue !important;
 }
 
-/* .project-button{
-  background-color: cornflowerblue !important;
-}
-
-.project-button:hover{
-  background-color: lightcoral !important;
-} */
-
 .contact-logos{
-  width: 90px !important;
+  width: 120px !important;
   border-radius: 90px !important;
   padding: 25px !important;
 }
