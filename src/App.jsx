@@ -6,7 +6,7 @@ import Navbar from './components/Navbar';
 import About from './components/About.jsx';
 import Home from './components/Home.jsx';
 import Contact from './components/Contact.jsx';
-import Portfolio from './components/Portfolio';
+import Portfolio from './components/Portfolio.jsx';
 
 
 

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import Portfolio from './Portfolio.jsx';
 import { Link } from 'react-router-dom';
 import MyButton from './Button.jsx';
