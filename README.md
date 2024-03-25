@@ -48,7 +48,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](/portfolio-img.png)
+[![Product Name Screen Shot][product-screenshot]](/website-img.png)
 
  **Check out my portfolio and the projects within!** This portfolio is made with React as an SPA.
 
@@ -126,6 +126,6 @@ To display my work projects and get to know me! :p
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/nishat-farhana/
-[product-screenshot]: /portfolio-img.png
+[product-screenshot]: /website-img.png
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
