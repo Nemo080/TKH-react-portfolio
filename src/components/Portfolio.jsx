@@ -3,8 +3,7 @@ import React from 'react'
 export default function Portfolio() {
   return (
     <>
-        <h1 className="text-6xl font-bold my-2.5">Portfolio</h1>
-        <p className='mt-4 mb-8 text-lg'>Hi there! I'm Nishat. A TKH fellow and this is my porfolio made with React. It is a SPA. :)</p>
+        <h1 className="text-6xl font-bold my-2.5 mb-10">Projects</h1>
         <div className='portfolio-container mx-20'>
             <div className='portfolio-item'>
                 <h2 className='text-2xl font-bold my-4'>About Me</h2>
