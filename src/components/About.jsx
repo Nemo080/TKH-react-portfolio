@@ -5,10 +5,11 @@ const About = () => {
     return (
         <div className='about-container mx-20'>
           <div className='about-item'>
-            <h3 className='text-lg font-bold'>Background</h3>
+            <h3 className='text-lg font-bold my-28'>Background</h3>
           </div>
           <div className='about-item'>
             <p className='my-4'>Hi! I am Nishat. I am currently a fellow at The Knowledge House. I have been in the technical world since 2021. I have always liked tinkering and making things with my hands so in a way coding or programming to me felt as if I was building something from scratch and putting together for someone to use with my hands.</p>
+            <img className="w-40 inline-flex" src="/me.png" />
           </div>
           <div className='about-item'>
             <h3 className='text-lg font-bold'>Mission Statement</h3>
