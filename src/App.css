@@ -4,18 +4,25 @@ body {
   flex-direction: column;
 }
 
-.navbar, .navbar > ul { 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .navbar, .navbar > ul { 
   display:flex; 
   flex-direction:row; 
   justify-content: center; 
   align-items: center; 
-  width: 78em; 
-}
+  width: 1rem; 
+} */
 
 .navbar > ul { 
-  justify-content:space-between; 
+  display: flex;
+  gap: 2rem;
   list-style: none; 
   font-size: 20px; 
+
 }
 
 .nav-img{
@@ -23,7 +30,7 @@ body {
 }
 
 #root {
-  max-width: 1280px;
+  /* max-width: 1280px; */
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
