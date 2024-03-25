@@ -6,7 +6,7 @@ export default function Navbar() {
     <nav className="navbar">
         <div className=''>
             <Link to="/">
-                <img className= "nav-img animate-bounce" src="/navcat.png" alt/>
+                <img className= "nav-img animate-bounce" src="/navcat.png" alt="drawing of me"/>
             </Link>
         </div>
           <ul>
