@@ -33,7 +33,7 @@ const About = () => {
             <p className='my-4'>JavaScript</p>
             <p className='my-4'>React</p>
           </div>
-          <div className='about-item'>
+          {/* <div className='about-item'>
             <h3 className='text-lg font-bold'>Client Focus</h3>
           </div><div className='about-item'>
             <p className='my-4'>N/A</p>
@@ -54,7 +54,7 @@ const About = () => {
             <h3 className='text-lg font-bold'>Client-Centric Approach</h3>
           </div><div className='about-item'>
             <p className='my-4'>N/A</p>
-          </div>
+          </div> */}
           <div className='about-item'>
             <h3 className='text-lg font-bold'>Education and Certifications</h3>
           </div>

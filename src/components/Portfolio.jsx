@@ -55,6 +55,18 @@ export default function Portfolio() {
                 <a href="https://github.com/Nemo080/anime-api" target="_blank" rel="noopener noreferrer">Github Repo</a>
                 </div>
             </div>
+            <div className='portfolio-item'>
+            </div>
+            <div className='portfolio-item'>
+                <h2 className='text-2xl font-bold my-4'>Yummage</h2>
+                <p className='my-4'>Yummage is a CRUD recipe application where the user is able to explore recipes from the Spoonacular API and other users. The user can create and save recipes for later use.</p>
+                <img className='project-img' src="/Yummage.png" alt="Yummage Site"/>
+                <div className='text-right mt-12'>
+                <a href="https://github.com/Nemo080/TKH-recipe-capstone" target="_blank" rel="noopener noreferrer">Github Repo</a>
+                </div>
+            </div>
+            <div className='portfolio-item'>
+            </div>
         </div>
     </>
   )
