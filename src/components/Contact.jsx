@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = (props) => {
   // const phone = props = "---,---,----";
-  const email = props = "nishatf01@gmail.com"
+  const email = props = "nishatfarhana.business@gmail.com"
 
   return (
       <div className='inline-block'>
