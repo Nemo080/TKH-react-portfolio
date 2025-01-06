@@ -13,7 +13,7 @@ const Contact = (props) => {
           {/* <p className="text-xl my-2">Here is my business phone number: {phone}</p> */}
           <p className="text-xl my-2">Connect with me on LinkedIn and check out my Github!</p>
           <br></br>
-          <a href='/Resume.pdf' target="_blank" rel="noopener noreferrer">Download Resume</a>
+          <a href='/[Nishat Farhana] Resume.pdf' target="_blank" rel="noopener noreferrer">Download Resume</a>
           <br></br>
           <div className='inline-flex'>
             <a href="https://www.linkedin.com/in/nishat-farhana/" target="_blank" rel="noopener noreferrer">
