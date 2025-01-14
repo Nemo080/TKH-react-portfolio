@@ -4,7 +4,7 @@ export default function Portfolio() {
     return (
         <>
             <h1 className="text-6xl font-bold my-2.5 mb-10">Projects</h1>
-            <div className="carousel carousel-center rounded-box overflow-x-auto flex snap-x snap-mandatory">
+            <div className="grid grid-cols-3 content-center ">
                 <div className="carousel-item m-2">
                     <div className="portfolio-container">
                         <div className="card bg-red-100 w-96 shadow-xl">
@@ -49,7 +49,7 @@ export default function Portfolio() {
                             <div className="card-body ">
                                 <h2 className="card-title ">Anime API</h2>
                                 <p>
-                                    No idea what Spy x Family is? Well, learn about it then... :) <br />{" "}
+                                    No idea what SPY x FAMILY is? Come find out :) <br />{" "}<br />
                                     Programmed with HTML, CSS, JavaScript
                                 </p>
                                 <br></br>
@@ -83,8 +83,8 @@ export default function Portfolio() {
                             <div className="card-body ">
                                 <h2 className="card-title ">Grocery List</h2>
                                 <p>
-                                    It's just a random list of groceries.... What did you think...?{" "}
-                                    <br /> Programmed with HTML, CSS, JavaScript
+                                    It's just a random list of groceries{" "}
+                                    <br /> <br />Programmed with HTML, CSS, JavaScript
                                 </p>
                                 <br></br>
                                 <div className="card-actions justify-end">
@@ -117,7 +117,7 @@ export default function Portfolio() {
                             <div className="card-body ">
                                 <h2 className="card-title ">Knights of JavaScript</h2>
                                 <p>
-                                    Two-player game... see who can beat the other! <br /> Programmed
+                                    Two-player game... see who can beat the other! <br /> <br />Programmed
                                     with HTML, CSS, JavaScript
                                 </p>
                                 <br></br>
@@ -151,7 +151,7 @@ export default function Portfolio() {
                                 <h2 className="card-title ">Rock, Paper, Scissors!</h2>
                                 <p>
                                     Can you beat a computer at rock, paper, scrssors? Let's see you try!{" "}
-                                    <br /> Fully programmed with JavaScript
+                                    <br /> <br />Fully programmed with JavaScript
                                 </p>
                                 <br></br>
                                 <div className="card-actions justify-end">
@@ -186,6 +186,7 @@ export default function Portfolio() {
                                 <p>
                                     Wanna have lunch? Well, your options are limited but have a go at
                                     this small little lunch adventure and see what you end on. <br />{" "}
+                                    <br />
                                     Programmed with HTML, CSS, JavaScript
                                 </p>
                                 <br></br>
@@ -196,7 +197,7 @@ export default function Portfolio() {
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
-                                        <button className="btn btn-primary">Github Repo</button>
+                                        <button className="btn btn-primary">Visit Site</button>
                                     </a>
                                     <a
                                         href="https://github.com/Nemo080/TKH-adventure"
@@ -229,7 +230,7 @@ export default function Portfolio() {
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
-                                        <button className="btn btn-primary">Github Repo</button>
+                                        <button className="btn btn-primary">Visit Site</button>
                                     </a>
                                     <a
                                         href="https://github.com/Nemo080/Portfolio-aboutme"

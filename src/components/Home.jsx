@@ -1,7 +1,9 @@
 import React from 'react';
-import Portfolio from './Portfolio.jsx';
-import { Link } from 'react-router-dom';
+// import Portfolio from './Portfolio.jsx';
+// import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import Contact from './Contact.jsx';
 import MyButton from './Button.jsx';
+
 
 const Home = () => { 
   return (
@@ -21,6 +23,7 @@ const Home = () => {
               </div>
           </div>
       </div>
+      {/* <Contact></Contact> */}
    </>
   ); 
 }; 
